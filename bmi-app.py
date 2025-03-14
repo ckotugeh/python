@@ -10,8 +10,8 @@ weight = float(input( "Weight: " ))
 # intialize BMI calculator
 bmi = weight / ( height **2 )     
 if bmi > 25:
-     print( myName + " Is Obes since the BMI is: ", bmi )
+     print(myName + f" Is Obes since the BMI is: {bmi}")
 else:
      if bmi <= 25:
-          print( myName + " Is normal since the BMI is: ", bmi )
+          print( myName + f" Is normal since the BMI is: {bmi}")
      
